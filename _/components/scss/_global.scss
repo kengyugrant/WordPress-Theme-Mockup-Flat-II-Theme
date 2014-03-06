@@ -1,0 +1,34 @@
+body {
+	font-family: $SourceSans;
+	background: $black;
+	color:$white;
+}
+a {
+	color:$green;
+	text-decoration: none;
+	&:hover {
+		color:$blue;
+	}
+}
+p {
+	font-size: $s;
+	padding: $s;
+	line-height: 1.5;
+}
+#{headings(all)} {
+	font-family: $Oxygen;
+	font-weight: bold;
+}
+h1 {
+	font-size: $xl;
+}
+h2 {
+	font-size: $l;
+}
+h3 {
+	font-size: $m;
+}
+h4, h5, h6 {
+	font-size: $s;
+	font-weight: 300;
+}
